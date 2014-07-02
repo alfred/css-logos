@@ -1,0 +1,252 @@
+#html5 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    overflow: hidden;
+}
+
+#html5 .shield-half {
+    width: 50px;
+    height: 100px;
+    margin: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+#html5 #left-shield {
+    background-color: #DC4724;
+}
+
+#html5 #right-shield {
+    background-color: #F1662B;
+    left: 50%;
+}
+
+#html5 #top-border {
+    height: 11px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    background-color: #DC4724;
+}
+
+#html5 .tail-of-five {
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    z-index: 2;
+}
+
+#html5 #dark-tail {
+    background-color: #EBEBEB;
+}
+
+#html5 #light-tail {
+    background-color: #FFF;
+    left: 50%;
+}
+
+#html5 .mid-of-five {
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    top: 42px;
+    z-index: 2;
+}
+
+#html5 #dark-mid {
+    background-color: #EBEBEB;
+}
+
+#html5 #light-mid {
+    background-color: #FFF;
+    left: 50%;
+}
+
+#html5 .hook-of-five {
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    top: 60px;
+    z-index: 2;
+}
+
+#html5 #dark-hook {
+    background-color: #EBEBEB;
+}
+
+#html5 #light-hook {
+    background-color: #FFF;
+    left: 50%;
+}
+
+#html5 .outer-border {
+    position: absolute;
+    height: 30px;
+    width: 83px;
+    z-index: 3;
+    top: 40px;
+}
+
+#html5 #left-outer-border {
+    background-color: #DC4724;
+
+    transform: rotate(87deg);
+    -o-transform: rotate(87deg);
+    -ms-transform:rotate(87deg);
+    -webkit-transform: rotate(87deg);
+    left: -35px;
+}
+
+#html5 #right-outer-border {
+    background-color: #F1662B;
+    transform: rotate(-87deg);
+    -o-transform: rotate(-87deg);
+    -ms-transform:rotate(-87deg);
+    -webkit-transform: rotate(-87deg);
+    right: -35px;
+}
+
+#html5 #right-inner-border {
+    position: absolute;
+    background-color: #DC4724;
+    top: 30%;
+    height: 15px;
+    z-index: 4;
+    width: 90px;
+}
+
+#html5 .white-side {
+    position: absolute;
+    background-color: #FFF;
+    height: 110px;
+    width: 30px;
+    z-index: 4;
+    top: -5px;
+}
+
+#html5 #left-long-side {
+    right: 97.5%;
+    transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform:rotate(-3deg);
+    -webkit-transform: rotate(-3deg);
+}
+
+#html5 #right-long-side {
+    left: 97.5%;
+    transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform:rotate(3deg);
+    -webkit-transform: rotate(3deg);
+}
+
+#html5 .bottom-border {
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    z-index: 3;
+    top: 75%;
+}
+
+#html5 #dark-bottom {
+    background-color: #DC4724;
+    transform: matrix(1, 0.1, 0, 1, 0, 0);
+    -o-transform: matrix(1, 0.1, 0, 1, 0, 0);
+    -ms-transform:matrix(1, 0.1, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.1, 0, 1, 0, 0);
+    right: 50%;
+}
+
+#html5 #light-bottom {
+    background-color: #F1662B;
+    transform: matrix(1, -0.1, 0, 1, 0, 0);
+    -o-transform: matrix(1, -0.1, 0, 1, 0, 0);
+    -ms-transform:matrix(1, -0.1, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+    left: 50%;
+}
+
+#html5 .outer-bottom {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 100%;
+}
+
+#html5 #dark-outer-bottom {
+    background-color: #DC4724;
+}
+
+#html5 #light-outer-bottom {
+    background-color: #DC4724;
+}
+
+#html5 .outer-white {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 200%;
+    background-color: #FFF;
+}
+
+#html5 #left-outer-white {
+    left: -30px;
+}
+
+#html5 #tail-to-mid {
+    position: absolute;
+    background-color: #EBEBEB;
+    width: 15px;
+    height: 25px;
+    top: 25%;
+    left: 15%;
+    z-index: 2;
+    transform: matrix(1, 0.2, 0.03, 1, 0, 0);
+    -o-transform: matrix(1, 0.2, 0.03, 1, 0, 0);
+    -ms-transform:matrix(1, 0.2, 0.03, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.2, 0.03, 1, 0, 0);
+}
+
+#html5 #mid-to-hook {
+    position: absolute;
+    background-color: #FFF;
+    width: 15px;
+    height: 25px;
+    z-index: 2;
+    left: 65%;
+    top: 50%;
+    transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform:rotate(8deg);
+    -webkit-transform: rotate(8deg);
+}
+
+#html5 #light-negative {
+    position: absolute;
+    background-color: #F1662B;
+    width: 20px;
+    height: 14px;
+    right: 30%;
+    top: 53%;
+    transform: matrix(1, -0.1, -0.1, 1, 0, 0);
+    -o-transform: matrix(1, -0.1, -0.1, 1, 0, 0);
+    -ms-transform:matrix(1, -0.1, -0.1, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.1, -0.1, 1, 0, 0);
+    z-index: 2;
+}
+
+#html5 #dark-negative {
+    position: absolute;
+    background-color: #DC4724; /* #DC4724; */
+    width: 20px;
+    height: 14px;
+    left: 30%;
+    top: 53%;
+    transform: matrix(1, 0.1, 0.1, 1, 0, 0);
+    -o-transform: matrix(1, 0.1, 0.1, 1, 0, 0);
+    -ms-transform:matrix(1, 0.1, 0.1, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.1, 0.1, 1, 0, 0);
+    z-index: 2;
+}
