@@ -1,0 +1,249 @@
+@mixin transform-rotate($angle) {
+	transform: rotate($angle);
+	-o-transform: rotate($angle);
+	-ms-transform: rotate($angle);
+	-webkit-transform: rotate($angle);
+}
+
+@mixin transform-matrix($scaleX, $skewX, $skewY, $scaleY, $translateX, $translateY) {
+	transform: matrix($scaleX, $skewX, $skewY, $scaleY, $translateX, $translateY);
+	-o-transform: matrix($scaleX, $skewX, $skewY, $scaleY, $translateX, $translateY);
+	-ms-transform:matrix($scaleX, $skewX, $skewY, $scaleY, $translateX, $translateY);
+	-webkit-transform: matrix($scaleX, $skewX, $skewY, $scaleY, $translateX, $translateY);
+}
+
+$tile-height: 100px;
+$tile-width: 100px;
+
+$relative: relative;
+$absolute: absolute;
+
+$dark-orange: #DC4724;
+$light-orange: #F1662B;
+$grey: #EBEBEB;
+$white: #FFF;
+
+#html5 {
+	height: $tile-height;
+	width: $tile-width;
+	position: $relative;
+	overflow: hidden;
+
+	.shield-half {
+		position: $absolute;
+		z-index: 1;
+
+		width: $tile-width * .5;
+		height: $tile-height;
+
+		margin: 0px;
+	}
+
+	#left-shield {
+		background-color: $dark-orange;
+	}
+
+	#right-shield {
+		background-color: $light-orange;
+		left: 50%;
+	}
+
+	#top-border {
+		height: 11px;
+		width: $tile-width;
+		position: $absolute;
+		z-index: 2;
+		background-color: $dark-orange;
+	}
+
+	.tail-of-five {
+		height: $tile-height * .1;
+		width: $tile-width * .5;
+		position: $absolute;
+		top: $tile-height * .2;
+		z-index: 2;
+	}
+
+	#dark-tail {
+		background-color: $grey;
+	}
+
+	#light-tail {
+		background-color: $white;
+		left: 50%;
+	}
+
+	.mid-of-five {
+		position: $absolute;
+		height: $tile-height * .1;
+		width: $tile-width * .5;
+
+		top: $tile-height * .42;
+		z-index: 2;
+	}
+
+	#dark-mid {
+		background-color: $grey;
+	}
+
+	#light-mid {
+		background-color: $white;
+		left: 50%;
+	}
+
+	.hook-of-five {
+		position: $absolute;
+		height: $tile-height * .2;
+		width: $tile-width * .6;
+		top: $tile-height * .6;
+		z-index: 2;
+	}
+
+	#dark-hook {
+		background-color: $grey;
+	}
+
+	#light-hook {
+		background-color: $white;
+		left: 50%;
+	}
+
+	.outer-border {
+		position: $absolute;
+		height: $tile-height * .3;
+		width: $tile-width * .83;
+		z-index: 3;
+		top: $tile-height * .4;
+	}
+
+	#left-outer-border {
+		background-color: $dark-orange;
+		@include transform-rotate(87deg);
+		left: $tile-width * -.35;
+	}
+
+	#right-outer-border {
+		background-color: $light-orange;
+		@include transform-rotate(-87deg);
+		right: $tile-width * -0.35;
+	}
+
+	#right-inner-border {
+		background-color: $dark-orange;
+		position: $absolute;
+		height: $tile-height * .15;
+		width: $tile-width * .9;
+		top: 30%;
+		z-index: 4;
+
+	}
+
+	.white-side {
+		background-color: $white;
+		position: $absolute;
+		height: $tile-height * 1.1;
+		width: $tile-width * .3;
+		z-index: 4;
+		top: $tile-height * -.05;
+	}
+
+	#left-long-side {
+		right: 97.5%;
+		@include transform-rotate(-3deg);
+	}
+
+	#right-long-side {
+		left: 97.5%;
+		@include transform-rotate(3deg);
+	}
+
+	.bottom-border {
+		position: $absolute;
+		height: $tile-height * .1;
+		width: $tile-width * .3;
+		z-index: 3;
+		top: 75%;
+	}
+
+	#dark-bottom {
+		background-color: $dark-orange;
+		@include transform-matrix(1, 0.1, 0, 1, 0, 0);
+		right: 50%;
+	}
+
+	#light-bottom {
+		background-color: $light-orange;
+		@include transform-matrix(1, -0.1, 0, 1, 0, 0);
+		left: 50%;
+	}
+
+	.outer-bottom {
+		position: $absolute;
+		width: $tile-width;
+		height: $tile-height * .1;
+		top: 100%;
+	}
+
+	#dark-outer-bottom {
+		background-color: $dark-orange;
+	}
+
+	#light-outer-bottom {
+		background-color: $dark-orange;
+	}
+
+	.outer-white {
+		position: $absolute;
+		width: $tile-width;
+		height: $tile-height * .1;
+		top: 200%;
+		background-color: $white;
+	}
+
+	#left-outer-white {
+		left: $tile-width * -.3;
+	}
+
+	#tail-to-mid {
+		position: $absolute;
+		background-color: $grey;
+		width: $tile-width * .15;
+		height: $tile-height * .25;
+		top:25%;
+		left: 15%;
+		z-index: 2;
+		@include transform-matrix(1, 0.2, 0.03, 1, 0, 0);
+	}
+
+	#mid-to-hook {
+		position: $absolute;
+		background-color: $white;
+		width: $tile-width * .15;
+		height: $tile-height * .25;
+		z-index: 2;
+		left: 65%;
+		top: 50%;
+		@include transform-rotate(8deg);
+	}
+
+	.negative-hook {
+		position: $absolute;
+		width: $tile-width * .2;
+		height: $tile-height * .14;
+		top: 53%;
+		z-index: 2;
+	}
+
+	#light-negative {
+		background-color: $light-orange;
+		right: 30%;
+		@include transform-matrix(1, -0.1, -0.1, 1, 0, 0);
+	}
+
+	#dark-negative {
+		background-color: $dark-orange;
+		left: 30%;
+		@include transform-matrix(1, 0.1, 0.1, 1, 0, 0);
+	}
+}
+
