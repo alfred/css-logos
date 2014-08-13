@@ -1,0 +1,182 @@
+#html5 {
+  height: 100px;
+  width: 100px;
+  position: relative;
+  overflow: hidden; }
+  #html5 .shield-half {
+    position: absolute;
+    z-index: 1;
+    width: 50px;
+    height: 100px;
+    margin: 0px; }
+  #html5 #left-shield {
+    background-color: #dc4724; }
+  #html5 #right-shield {
+    background-color: #f1662b;
+    left: 50%; }
+  #html5 #top-border {
+    height: 11px;
+    width: 100px;
+    position: absolute;
+    z-index: 2;
+    background-color: #dc4724; }
+  #html5 .tail-of-five {
+    height: 10px;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    z-index: 2; }
+  #html5 #dark-tail {
+    background-color: #ebebeb; }
+  #html5 #light-tail {
+    background-color: white;
+    left: 50%; }
+  #html5 .mid-of-five {
+    position: absolute;
+    height: 10px;
+    width: 50px;
+    top: 42px;
+    z-index: 2; }
+  #html5 #dark-mid {
+    background-color: #ebebeb; }
+  #html5 #light-mid {
+    background-color: white;
+    left: 50%; }
+  #html5 .hook-of-five {
+    position: absolute;
+    height: 20px;
+    width: 60px;
+    top: 60px;
+    z-index: 2; }
+  #html5 #dark-hook {
+    background-color: #ebebeb; }
+  #html5 #light-hook {
+    background-color: white;
+    left: 50%; }
+  #html5 .outer-border {
+    position: absolute;
+    height: 30px;
+    width: 83px;
+    z-index: 3;
+    top: 40px; }
+  #html5 #left-outer-border {
+    background-color: #dc4724;
+    transform: rotate(87deg);
+    -o-transform: rotate(87deg);
+    -ms-transform: rotate(87deg);
+    -webkit-transform: rotate(87deg);
+    left: -35px; }
+  #html5 #right-outer-border {
+    background-color: #f1662b;
+    transform: rotate(-87deg);
+    -o-transform: rotate(-87deg);
+    -ms-transform: rotate(-87deg);
+    -webkit-transform: rotate(-87deg);
+    right: -35px; }
+  #html5 #right-inner-border {
+    background-color: #dc4724;
+    position: absolute;
+    height: 15px;
+    width: 90px;
+    top: 30%;
+    z-index: 4; }
+  #html5 .white-side {
+    background-color: white;
+    position: absolute;
+    height: 110.0px;
+    width: 30px;
+    z-index: 4;
+    top: -5px; }
+  #html5 #left-long-side {
+    right: 97.5%;
+    transform: rotate(-3deg);
+    -o-transform: rotate(-3deg);
+    -ms-transform: rotate(-3deg);
+    -webkit-transform: rotate(-3deg); }
+  #html5 #right-long-side {
+    left: 97.5%;
+    transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg); }
+  #html5 .bottom-border {
+    position: absolute;
+    height: 10px;
+    width: 30px;
+    z-index: 3;
+    top: 75%; }
+  #html5 #dark-bottom {
+    background-color: #dc4724;
+    transform: matrix(1, 0.1, 0, 1, 0, 0);
+    -o-transform: matrix(1, 0.1, 0, 1, 0, 0);
+    -ms-transform: matrix(1, 0.1, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.1, 0, 1, 0, 0);
+    right: 50%; }
+  #html5 #light-bottom {
+    background-color: #f1662b;
+    transform: matrix(1, -0.1, 0, 1, 0, 0);
+    -o-transform: matrix(1, -0.1, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.1, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+    left: 50%; }
+  #html5 .outer-bottom {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 100%; }
+  #html5 #dark-outer-bottom {
+    background-color: #dc4724; }
+  #html5 #light-outer-bottom {
+    background-color: #dc4724; }
+  #html5 .outer-white {
+    position: absolute;
+    width: 100px;
+    height: 10px;
+    top: 200%;
+    background-color: white; }
+  #html5 #left-outer-white {
+    left: -30px; }
+  #html5 #tail-to-mid {
+    position: absolute;
+    background-color: #ebebeb;
+    width: 15px;
+    height: 25px;
+    top: 25%;
+    left: 15%;
+    z-index: 2;
+    transform: matrix(1, 0.2, 0.03, 1, 0, 0);
+    -o-transform: matrix(1, 0.2, 0.03, 1, 0, 0);
+    -ms-transform: matrix(1, 0.2, 0.03, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.2, 0.03, 1, 0, 0); }
+  #html5 #mid-to-hook {
+    position: absolute;
+    background-color: white;
+    width: 15px;
+    height: 25px;
+    z-index: 2;
+    left: 65%;
+    top: 50%;
+    transform: rotate(8deg);
+    -o-transform: rotate(8deg);
+    -ms-transform: rotate(8deg);
+    -webkit-transform: rotate(8deg); }
+  #html5 .negative-hook {
+    position: absolute;
+    width: 20px;
+    height: 14.0px;
+    top: 53%;
+    z-index: 2; }
+  #html5 #light-negative {
+    background-color: #f1662b;
+    right: 30%;
+    transform: matrix(1, -0.1, -0.1, 1, 0, 0);
+    -o-transform: matrix(1, -0.1, -0.1, 1, 0, 0);
+    -ms-transform: matrix(1, -0.1, -0.1, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.1, -0.1, 1, 0, 0); }
+  #html5 #dark-negative {
+    background-color: #dc4724;
+    left: 30%;
+    transform: matrix(1, 0.1, 0.1, 1, 0, 0);
+    -o-transform: matrix(1, 0.1, 0.1, 1, 0, 0);
+    -ms-transform: matrix(1, 0.1, 0.1, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.1, 0.1, 1, 0, 0); }
