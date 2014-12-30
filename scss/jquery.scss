@@ -1,0 +1,96 @@
+$blue-color : #0769AD;
+$big: 120px;
+$med: 88px;
+$sm: 56px;
+$radius-value:76px;
+
+@mixin size($value) {
+    height: $value * 1.35;
+    width: $value;
+}
+
+@mixin perserve-3d() {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+
+#jquery {
+    height: 160px;
+    width: 200px;
+    overflow: hidden;
+    padding: 5px;
+    margin-top: 5px;
+    transform: rotate(-53deg);
+    @include perserve-3d;
+}
+
+.circle {
+    border-top-left-radius: $radius-value;
+    border-bottom-left-radius: $radius-value;
+    position: absolute;
+}
+
+.circle:nth-child(odd) {
+    background-color: $blue-color;
+}
+
+.circle:nth-child(even) {
+    background-color: #FFF;
+}
+
+.big {
+    @include size($big);
+}
+
+.medium {
+    @include size($med);
+}
+
+.small {
+    @include size($sm);
+}
+
+#one {
+    z-index: 1;  
+}
+
+#two {
+    z-index: 2;
+    left: 32px;
+}
+
+#three {
+    z-index: 3;
+    left: 64px;
+    top: 28px;
+}
+
+#four {
+    z-index: 4;
+    left: 88px;
+    top: 28px;
+}
+
+#five {
+    z-index: 5;
+    left: 120px;
+    top: 48px;
+}
+
+#six {
+    z-index: 6;
+    left: 136px;
+    top: 48px;
+}
+
+.tail {
+    position: absolute;
+    z-index: inherit;
+    background-color: #FFF;
+    height: 110%;
+    width: 40%;
+    right: -30px;
+    top: -8px;
+}
