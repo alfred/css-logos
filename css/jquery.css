@@ -9,62 +9,49 @@
   -moz-transform-style: preserve-3d;
   -ms-transform-style: preserve-3d;
   transform-style: preserve-3d; }
-
-.circle {
-  border-top-left-radius: 76px;
-  border-bottom-left-radius: 76px;
-  position: absolute; }
-
-.circle:nth-child(odd) {
-  background-color: #0769ad; }
-
-.circle:nth-child(even) {
-  background-color: #FFF; }
-
-.big {
-  height: 162px;
-  width: 120px; }
-
-.medium {
-  height: 118.8px;
-  width: 88px; }
-
-.small {
-  height: 75.6px;
-  width: 56px; }
-
-#one {
-  z-index: 1; }
-
-#two {
-  z-index: 2;
-  left: 32px; }
-
-#three {
-  z-index: 3;
-  left: 64px;
-  top: 28px; }
-
-#four {
-  z-index: 4;
-  left: 88px;
-  top: 28px; }
-
-#five {
-  z-index: 5;
-  left: 120px;
-  top: 48px; }
-
-#six {
-  z-index: 6;
-  left: 136px;
-  top: 48px; }
-
-.tail {
-  position: absolute;
-  z-index: inherit;
-  background-color: #FFF;
-  height: 110%;
-  width: 40%;
-  right: -30px;
-  top: -8px; }
+  #jquery .circle {
+    border-top-left-radius: 76px;
+    border-bottom-left-radius: 76px;
+    position: absolute; }
+    #jquery .circle .tail {
+      position: absolute;
+      z-index: inherit;
+      background-color: #FFF;
+      height: 110%;
+      width: 40%;
+      right: -30px;
+      top: -8px; }
+  #jquery .circle:nth-child(odd) {
+    background-color: #0769ad; }
+  #jquery .circle:nth-child(even) {
+    background-color: #FFF; }
+  #jquery .big {
+    height: 162px;
+    width: 120px; }
+  #jquery .medium {
+    height: 118.8px;
+    width: 88px; }
+  #jquery .small {
+    height: 75.6px;
+    width: 56px; }
+  #jquery #one {
+    z-index: 1; }
+  #jquery #two {
+    z-index: 2;
+    left: 32px; }
+  #jquery #three {
+    z-index: 3;
+    left: 64px;
+    top: 28px; }
+  #jquery #four {
+    z-index: 4;
+    left: 88px;
+    top: 28px; }
+  #jquery #five {
+    z-index: 5;
+    left: 120px;
+    top: 48px; }
+  #jquery #six {
+    z-index: 6;
+    left: 136px;
+    top: 48px; }
