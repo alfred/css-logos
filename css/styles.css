@@ -19,6 +19,9 @@ html, body {
 
 .banner .browser-specific {
   color: #888; }
+.banner .btn-twitter {
+  color: #FFF;
+  background-color: #55ACEE; }
 
 .logo-row {
   padding-top: 90px;
