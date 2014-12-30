@@ -4,21 +4,21 @@ http://alfredababio.github.io/css-logos/
 
 Logos for the technologies I know in pure CSS
 
-Most of these logos are official, some others I took some creative license with to keep them in a 100x100 frame, because I was originally going to put them right on my homepage.
+I'm trying to make them all fit comfortable into homogenuous rows and columns. Pray for me.
 
-This seems like a better idea.
 
 Completed:
 HTML5
+jQuery
 
 In Progress:
 CSS3
+JavaScript
 
 Not Started:
-JavaScript
 NodeJS
-jQuery
 Java
 Ruby
 Rails
 Racket
+Angular
