@@ -12,8 +12,8 @@
 	-webkit-transform: matrix($scaleX, $skewX, $skewY, $scaleY, $translateX, $translateY);
 }
 
-$tile-height: 100px;
-$tile-width: 100px;
+$tile-height: 160px;
+$tile-width: 140px;
 
 $relative: relative;
 $absolute: absolute;
@@ -60,7 +60,7 @@ $white: #FFF;
 		height: $tile-height * .1;
 		width: $tile-width * .5;
 		position: $absolute;
-		top: $tile-height * .2;
+		top: $tile-height * .15;
 		z-index: 2;
 	}
 
@@ -78,7 +78,7 @@ $white: #FFF;
 		height: $tile-height * .1;
 		width: $tile-width * .5;
 
-		top: $tile-height * .42;
+		top: $tile-height * .375;
 		z-index: 2;
 	}
 
@@ -93,9 +93,9 @@ $white: #FFF;
 
 	.hook-of-five {
 		position: $absolute;
-		height: $tile-height * .2;
+		height: $tile-height * .24;
 		width: $tile-width * .6;
-		top: $tile-height * .6;
+		top: $tile-height * .55;
 		z-index: 2;
 	}
 
@@ -111,28 +111,28 @@ $white: #FFF;
 	.outer-border {
 		position: $absolute;
 		height: $tile-height * .3;
-		width: $tile-width * .83;
+		width: $tile-width * .8;
 		z-index: 3;
-		top: $tile-height * .4;
+		top: $tile-height * .345;
 	}
 
 	#left-outer-border {
 		background-color: $dark-orange;
-		@include transform-rotate(87deg);
-		left: $tile-width * -.35;
+		@include transform-rotate(83deg);
+		left: $tile-width * -.325;
 	}
 
 	#right-outer-border {
 		background-color: $light-orange;
-		@include transform-rotate(-87deg);
-		right: $tile-width * -0.35;
+		@include transform-rotate(-83deg);
+		right: $tile-width * -0.325;
 	}
 
 	#right-inner-border {
 		background-color: $dark-orange;
 		position: $absolute;
 		height: $tile-height * .15;
-		width: $tile-width * .9;
+		width: $tile-width * 1;
 		top: 30%;
 		z-index: 4;
 
@@ -148,13 +148,13 @@ $white: #FFF;
 	}
 
 	#left-long-side {
-		right: 97.5%;
-		@include transform-rotate(-3deg);
+		right: 91.5%;
+		@include transform-rotate(-7deg);
 	}
 
 	#right-long-side {
-		left: 97.5%;
-		@include transform-rotate(3deg);
+		left: 91.5%;
+		@include transform-rotate(7deg);
 	}
 
 	.bottom-border {
@@ -167,13 +167,13 @@ $white: #FFF;
 
 	#dark-bottom {
 		background-color: $dark-orange;
-		@include transform-matrix(1, 0.1, 0, 1, 0, 0);
+		@include transform-matrix(1, 0.25, 0, 1, 0, 0);
 		right: 50%;
 	}
 
 	#light-bottom {
 		background-color: $light-orange;
-		@include transform-matrix(1, -0.1, 0, 1, 0, 0);
+		@include transform-matrix(1, -0.25, 0, 1, 0, 0);
 		left: 50%;
 	}
 
@@ -209,10 +209,10 @@ $white: #FFF;
 		background-color: $grey;
 		width: $tile-width * .15;
 		height: $tile-height * .25;
-		top:25%;
-		left: 15%;
+		top:16.5%;
+		left: 17.5%;
 		z-index: 2;
-		@include transform-matrix(1, 0.2, 0.03, 1, 0, 0);
+		@include transform-matrix(1, 0.3, 0.125, 1, 0, 0);
 	}
 
 	#mid-to-hook {
@@ -222,28 +222,55 @@ $white: #FFF;
 		height: $tile-height * .25;
 		z-index: 2;
 		left: 65%;
-		top: 50%;
-		@include transform-rotate(8deg);
+		top: 40%;
+		@include transform-rotate(6deg);
 	}
 
 	.negative-hook {
 		position: $absolute;
-		width: $tile-width * .2;
-		height: $tile-height * .14;
-		top: 53%;
-		z-index: 2;
 	}
 
 	#light-negative {
-		background-color: $light-orange;
-		right: 30%;
-		@include transform-matrix(1, -0.1, -0.1, 1, 0, 0);
+        background-color: $light-orange;
+        top: 52.5%;
+        left: 50%;
+        height: $tile-height * .17;
+        width: $tile-width * .15;
+        
+        z-index: 2;
+        overflow: hidden;
+        
+        #hack-side {
+            background-color: #FFF;
+            position: relative;
+            height: 110%;
+            width: 20%;
+            left: 91.5%;
+            @include transform-rotate(7deg);
+            z-index: 4;
+        }
+        
+        #hack-bottom {
+            background-color: #FFF;
+            position: relative;
+            height: 30%;
+            width: 90%;
+            z-index: 4;
+            bottom: 16.5%;
+            @include transform-rotate(-10deg);
+            z-index: 3;
+        }
 	}
 
 	#dark-negative {
-		background-color: $dark-orange;
-		left: 30%;
-		@include transform-matrix(1, 0.1, 0.1, 1, 0, 0);
+	    background-color: $dark-orange;
+	    top: 52.5%;
+	    right: 39%;
+	    @include transform-matrix(1, 0.2, 0.125, 1, 0, 0);
+        
+        height: $tile-height * .17;
+        width: $tile-width * .25;
+        
+        z-index: 2;
 	}
 }
-

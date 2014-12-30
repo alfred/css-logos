@@ -1,13 +1,13 @@
 #html5 {
-  height: 100px;
-  width: 100px;
+  height: 160px;
+  width: 140px;
   position: relative;
   overflow: hidden; }
   #html5 .shield-half {
     position: absolute;
     z-index: 1;
-    width: 50px;
-    height: 100px;
+    width: 70px;
+    height: 160px;
     margin: 0px; }
   #html5 #left-shield {
     background-color: #dc4724; }
@@ -16,15 +16,15 @@
     left: 50%; }
   #html5 #top-border {
     height: 11px;
-    width: 100px;
+    width: 140px;
     position: absolute;
     z-index: 2;
     background-color: #dc4724; }
   #html5 .tail-of-five {
-    height: 10px;
-    width: 50px;
+    height: 16px;
+    width: 70px;
     position: absolute;
-    top: 20px;
+    top: 24px;
     z-index: 2; }
   #html5 #dark-tail {
     background-color: #ebebeb; }
@@ -33,9 +33,9 @@
     left: 50%; }
   #html5 .mid-of-five {
     position: absolute;
-    height: 10px;
-    width: 50px;
-    top: 42px;
+    height: 16px;
+    width: 70px;
+    top: 60px;
     z-index: 2; }
   #html5 #dark-mid {
     background-color: #ebebeb; }
@@ -44,9 +44,9 @@
     left: 50%; }
   #html5 .hook-of-five {
     position: absolute;
-    height: 20px;
-    width: 60px;
-    top: 60px;
+    height: 38.4px;
+    width: 84px;
+    top: 88px;
     z-index: 2; }
   #html5 #dark-hook {
     background-color: #ebebeb; }
@@ -55,74 +55,74 @@
     left: 50%; }
   #html5 .outer-border {
     position: absolute;
-    height: 30px;
-    width: 83px;
+    height: 48px;
+    width: 112px;
     z-index: 3;
-    top: 40px; }
+    top: 55.2px; }
   #html5 #left-outer-border {
     background-color: #dc4724;
-    transform: rotate(87deg);
-    -o-transform: rotate(87deg);
-    -ms-transform: rotate(87deg);
-    -webkit-transform: rotate(87deg);
-    left: -35px; }
+    transform: rotate(83deg);
+    -o-transform: rotate(83deg);
+    -ms-transform: rotate(83deg);
+    -webkit-transform: rotate(83deg);
+    left: -45.5px; }
   #html5 #right-outer-border {
     background-color: #f1662b;
-    transform: rotate(-87deg);
-    -o-transform: rotate(-87deg);
-    -ms-transform: rotate(-87deg);
-    -webkit-transform: rotate(-87deg);
-    right: -35px; }
+    transform: rotate(-83deg);
+    -o-transform: rotate(-83deg);
+    -ms-transform: rotate(-83deg);
+    -webkit-transform: rotate(-83deg);
+    right: -45.5px; }
   #html5 #right-inner-border {
     background-color: #dc4724;
     position: absolute;
-    height: 15px;
-    width: 90px;
+    height: 24px;
+    width: 140px;
     top: 30%;
     z-index: 4; }
   #html5 .white-side {
     background-color: white;
     position: absolute;
-    height: 110.0px;
-    width: 30px;
+    height: 176px;
+    width: 42px;
     z-index: 4;
-    top: -5px; }
+    top: -8px; }
   #html5 #left-long-side {
-    right: 97.5%;
-    transform: rotate(-3deg);
-    -o-transform: rotate(-3deg);
-    -ms-transform: rotate(-3deg);
-    -webkit-transform: rotate(-3deg); }
+    right: 91.5%;
+    transform: rotate(-7deg);
+    -o-transform: rotate(-7deg);
+    -ms-transform: rotate(-7deg);
+    -webkit-transform: rotate(-7deg); }
   #html5 #right-long-side {
-    left: 97.5%;
-    transform: rotate(3deg);
-    -o-transform: rotate(3deg);
-    -ms-transform: rotate(3deg);
-    -webkit-transform: rotate(3deg); }
+    left: 91.5%;
+    transform: rotate(7deg);
+    -o-transform: rotate(7deg);
+    -ms-transform: rotate(7deg);
+    -webkit-transform: rotate(7deg); }
   #html5 .bottom-border {
     position: absolute;
-    height: 10px;
-    width: 30px;
+    height: 16px;
+    width: 42px;
     z-index: 3;
     top: 75%; }
   #html5 #dark-bottom {
     background-color: #dc4724;
-    transform: matrix(1, 0.1, 0, 1, 0, 0);
-    -o-transform: matrix(1, 0.1, 0, 1, 0, 0);
-    -ms-transform: matrix(1, 0.1, 0, 1, 0, 0);
-    -webkit-transform: matrix(1, 0.1, 0, 1, 0, 0);
+    transform: matrix(1, 0.25, 0, 1, 0, 0);
+    -o-transform: matrix(1, 0.25, 0, 1, 0, 0);
+    -ms-transform: matrix(1, 0.25, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.25, 0, 1, 0, 0);
     right: 50%; }
   #html5 #light-bottom {
     background-color: #f1662b;
-    transform: matrix(1, -0.1, 0, 1, 0, 0);
-    -o-transform: matrix(1, -0.1, 0, 1, 0, 0);
-    -ms-transform: matrix(1, -0.1, 0, 1, 0, 0);
-    -webkit-transform: matrix(1, -0.1, 0, 1, 0, 0);
+    transform: matrix(1, -0.25, 0, 1, 0, 0);
+    -o-transform: matrix(1, -0.25, 0, 1, 0, 0);
+    -ms-transform: matrix(1, -0.25, 0, 1, 0, 0);
+    -webkit-transform: matrix(1, -0.25, 0, 1, 0, 0);
     left: 50%; }
   #html5 .outer-bottom {
     position: absolute;
-    width: 100px;
-    height: 10px;
+    width: 140px;
+    height: 16px;
     top: 100%; }
   #html5 #dark-outer-bottom {
     background-color: #dc4724; }
@@ -130,53 +130,77 @@
     background-color: #dc4724; }
   #html5 .outer-white {
     position: absolute;
-    width: 100px;
-    height: 10px;
+    width: 140px;
+    height: 16px;
     top: 200%;
     background-color: white; }
   #html5 #left-outer-white {
-    left: -30px; }
+    left: -42px; }
   #html5 #tail-to-mid {
     position: absolute;
     background-color: #ebebeb;
-    width: 15px;
-    height: 25px;
-    top: 25%;
-    left: 15%;
+    width: 21px;
+    height: 40px;
+    top: 16.5%;
+    left: 17.5%;
     z-index: 2;
-    transform: matrix(1, 0.2, 0.03, 1, 0, 0);
-    -o-transform: matrix(1, 0.2, 0.03, 1, 0, 0);
-    -ms-transform: matrix(1, 0.2, 0.03, 1, 0, 0);
-    -webkit-transform: matrix(1, 0.2, 0.03, 1, 0, 0); }
+    transform: matrix(1, 0.3, 0.125, 1, 0, 0);
+    -o-transform: matrix(1, 0.3, 0.125, 1, 0, 0);
+    -ms-transform: matrix(1, 0.3, 0.125, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.3, 0.125, 1, 0, 0); }
   #html5 #mid-to-hook {
     position: absolute;
     background-color: white;
-    width: 15px;
-    height: 25px;
+    width: 21px;
+    height: 40px;
     z-index: 2;
     left: 65%;
-    top: 50%;
-    transform: rotate(8deg);
-    -o-transform: rotate(8deg);
-    -ms-transform: rotate(8deg);
-    -webkit-transform: rotate(8deg); }
+    top: 40%;
+    transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    -ms-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg); }
   #html5 .negative-hook {
-    position: absolute;
-    width: 20px;
-    height: 14.0px;
-    top: 53%;
-    z-index: 2; }
+    position: absolute; }
   #html5 #light-negative {
     background-color: #f1662b;
-    right: 30%;
-    transform: matrix(1, -0.1, -0.1, 1, 0, 0);
-    -o-transform: matrix(1, -0.1, -0.1, 1, 0, 0);
-    -ms-transform: matrix(1, -0.1, -0.1, 1, 0, 0);
-    -webkit-transform: matrix(1, -0.1, -0.1, 1, 0, 0); }
+    top: 52.5%;
+    left: 50%;
+    height: 27.2px;
+    width: 21px;
+    z-index: 2;
+    overflow: hidden; }
+    #html5 #light-negative #hack-side {
+      background-color: #FFF;
+      position: relative;
+      height: 110%;
+      width: 20%;
+      left: 91.5%;
+      transform: rotate(7deg);
+      -o-transform: rotate(7deg);
+      -ms-transform: rotate(7deg);
+      -webkit-transform: rotate(7deg);
+      z-index: 4; }
+    #html5 #light-negative #hack-bottom {
+      background-color: #FFF;
+      position: relative;
+      height: 30%;
+      width: 90%;
+      z-index: 4;
+      bottom: 16.5%;
+      transform: rotate(-10deg);
+      -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+      -webkit-transform: rotate(-10deg);
+      z-index: 3; }
   #html5 #dark-negative {
     background-color: #dc4724;
-    left: 30%;
-    transform: matrix(1, 0.1, 0.1, 1, 0, 0);
-    -o-transform: matrix(1, 0.1, 0.1, 1, 0, 0);
-    -ms-transform: matrix(1, 0.1, 0.1, 1, 0, 0);
-    -webkit-transform: matrix(1, 0.1, 0.1, 1, 0, 0); }
+    top: 52.5%;
+    right: 39%;
+    transform: matrix(1, 0.2, 0.125, 1, 0, 0);
+    -o-transform: matrix(1, 0.2, 0.125, 1, 0, 0);
+    -ms-transform: matrix(1, 0.2, 0.125, 1, 0, 0);
+    -webkit-transform: matrix(1, 0.2, 0.125, 1, 0, 0);
+    height: 27.2px;
+    width: 35px;
+    z-index: 2; }
