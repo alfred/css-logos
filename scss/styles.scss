@@ -7,7 +7,7 @@ html, body {
     min-height: 100%;
     height: auto !important;
     height: 100%;
-    margin: 0 auto -60px;
+    margin: 0 auto;
     text-align: center
 }
 
@@ -54,7 +54,6 @@ html, body {
 	padding: 15px 0px 0px 0px;
 
 	position: relative;
-	margin-top: -60px;
 	clear: both;
 
 	.container {
@@ -71,4 +70,10 @@ html, body {
         padding-left: 20px;
         padding-right: 20px;
     }
+}
+
+@media (max-width: 767px) {
+  .col-md-3 {
+    overflow: hidden;
+  }
 }
