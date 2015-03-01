@@ -61,7 +61,7 @@ html, body {
 	}
 }
 
-@media (max-width: 991px)
+@media (max-width: 767px)
 {
     #footer
     {
@@ -72,7 +72,7 @@ html, body {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   .col-md-3 {
     overflow: hidden;
   }
