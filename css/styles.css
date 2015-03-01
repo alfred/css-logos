@@ -42,7 +42,7 @@ html, body {
   #footer .container {
     text-align: center; }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
   #footer {
     margin-left: -20px;
     margin-right: -20px;
